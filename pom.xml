@@ -6,6 +6,29 @@
   <artifactId>SeleniumJenkins</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+    <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.18.1</version>
+        <configuration>
+          <forkCount>0</forkCount>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
   <name>SeleniumJenkins</name>
   <url>http://maven.apache.org</url>
@@ -44,6 +67,8 @@
     <version>6.9.10</version>
     <scope>test</scope>
 </dependency>
+
+
     
   </dependencies>
 </project>
