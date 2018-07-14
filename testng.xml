@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="SeleniumJenkins.SeleniumJenkins.seleniumTest"/>
+      <class name="SeleniumJenkins.printsomething"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

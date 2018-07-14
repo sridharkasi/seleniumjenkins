@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18271" started-at="2018-07-13T04:11:28Z" finished-at="2018-07-13T04:11:46Z">
+  <suite name="Default suite" duration-ms="48" started-at="2018-07-14T17:40:46Z" finished-at="2018-07-14T17:40:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18271" started-at="2018-07-13T04:11:28Z" finished-at="2018-07-13T04:11:46Z">
-      <class name="SeleniumJenkins.SeleniumJenkins.seleniumTest">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:SeleniumJenkins.SeleniumJenkins.seleniumTest@4c70fda8]" name="launchbrowser" duration-ms="18237" started-at="2018-07-13T09:41:28Z" finished-at="2018-07-13T09:41:46Z">
+    <test name="Default test" duration-ms="48" started-at="2018-07-14T17:40:46Z" finished-at="2018-07-14T17:40:46Z">
+      <class name="SeleniumJenkins.SeleniumJenkins.printsomething">
+        <test-method status="PASS" signature="print()[pri:0, instance:SeleniumJenkins.SeleniumJenkins.printsomething@1bce4f0a]" name="print" duration-ms="16" started-at="2018-07-14T23:10:46Z" finished-at="2018-07-14T23:10:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchbrowser -->
-      </class> <!-- SeleniumJenkins.SeleniumJenkins.seleniumTest -->
+        </test-method> <!-- print -->
+      </class> <!-- SeleniumJenkins.SeleniumJenkins.printsomething -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
